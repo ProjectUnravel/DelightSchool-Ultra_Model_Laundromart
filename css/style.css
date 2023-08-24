@@ -1,0 +1,116 @@
+*{
+    font-family: sans-serif;
+}
+.nav-menu{
+    width: 100%;
+    background-color: #13426c;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    margin-left: 20px;
+}
+.nav-logo>img{
+    width: 20%;
+}
+.nav-items  {
+    width: 80%;
+}
+.nav-items>nav>ul>li>a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    font-size: 1.3rem;
+}
+.nav-items>nav>ul>li{
+    display: inline;
+    justify-content: end;
+}
+.nav-items>nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item>li>a>li{
+    font-size: 40px;
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    background-color: slateblue;
+    color: white;
+}
+li:hover{
+    background-color: blue;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 3px 3px skyblue;
+    background-image: linear-gradient(white,blue);
+    border-radius: 18px;
+}
+li:active{background-color: red;}
+.brand-image{
+    width: 80%;
+    border-radius: 50%;
+}
+.team-image{
+    width: 50%;
+}
+
+.banner-section h1{
+    font-size: 50px;
+}
+
+.section3{
+    background-color: #13426c;
+    /* padding: 20px; */
+}
+
+.section4 .about-us-section{
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-right: 5px;
+    margin: 5px 5px;
+}
+
+.section4 .about-us-section h3{
+    font-size: 35px;
+    color: blue;
+}
+
+.section4 .customer-review-section{
+    border-left: 2px solid black; 
+    font-size: 17px;
+    margin: 10px 0px 0px 0px;
+    padding: 5px 10px;
+}
+
+.section4 .customer-review-section h3{
+    font-size: 35px;
+    color: blue;
+}
+
+.contact-us-section div h3{
+    align-items: center;
+    margin-right: 350;
+    font-size: 50px;
+    text-align: center;
+}
+.contact-us-section div{
+    background-color: #13426c;
+    align-items: center;
+    text-align: center;
+    margin-right: 350;
+    width: 100%;
+     
+}
+.banner{
+    height: 80vh;
+    background-image: linear-gradient(rgba(65,64,150,0.5),rgba(230,144,15,0.678)), url('../img/dd\ \(1\).jpg');
+    background-size: cover;
+}
+.lol{
+    font-size: 500%;
+    color: blue;
+}
